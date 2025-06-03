@@ -14,7 +14,7 @@ class GameEngine:
         """Initialize the game engine and all game components."""
         # Set up the display
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-        pygame.display.set_caption("Dark Ritual")
+        pygame.display.set_caption("Echoes of the Forgotten")
         
         # Set up the clock
         self.clock = pygame.time.Clock()

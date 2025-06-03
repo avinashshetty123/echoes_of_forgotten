@@ -91,7 +91,7 @@ class StartScreen:
         # Draw title with pulsing effect
         pulse = int(20 * math.sin(pygame.time.get_ticks() / 200))
         title_color = (200 + pulse, 50, 200 + pulse)
-        title = self.font_large.render("DARK RITUAL", True, title_color)
+        title = self.font_large.render("Echoes of the Forgotten", True, title_color)
         self.screen.blit(title, (SCREEN_WIDTH // 2 - title.get_width() // 2, 150))
         
         # Draw subtitle

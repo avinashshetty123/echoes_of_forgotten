@@ -13,7 +13,7 @@ def main():
     
     # Create screen
     screen = pygame.display.set_mode((800, 600))
-    pygame.display.set_caption("Dark Ritual")
+    pygame.display.set_caption("Echoes of the Forgotten")
     
     # Initialize level system
     level_system = LevelSystem()
